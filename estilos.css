@@ -1,0 +1,301 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows:130px;
+    opacity: 0.8;
+}
+h1{
+    color: aliceblue;
+}
+.menu {
+    list-style-type:none;
+    display: flex;
+    gap: 40px;
+}
+header {
+    display: flex;
+}
+.imagen-menu {
+    width: 120px;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+}
+.inicio{
+    background-image:url(/img/fondo\ de\ inicio.jpg);
+    background-size: cover;
+}
+.box01 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;}
+.box02 {
+        grid-column-start:2;
+        grid-row-start:1;
+        grid-row-end:2;
+    }
+.box03 { 
+    grid-column-start:2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.box04 {
+    grid-column-start:2 ;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.box05 {
+    grid-column-start:3 ;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.juegos{
+    background-image: url(/img/fondo\ de\ juegos.jpg);
+    background-size: cover;
+} 
+.box1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image:url(/img/juego1.jpeg);
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    }
+
+.box2{
+    grid-column-start:1 ;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align:start;
+    font-weight:900;
+    color:rgb(255, 255, 255);
+    margin: 0.4em;
+}
+.box3 {
+    grid-column-start:1;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image:url(/img/juego2.webp);
+    background-size: 350px;
+}
+
+.box4 {
+    grid-column-start:1 ;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    text-align:start;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    margin: 0.4em;
+}
+.box5 {
+    grid-column-start:2;
+    grid-row-start:1;
+    grid-row-end:2;
+    background-image:url(/img/juego3.png);
+    background-size: cover ;
+    width: 100%;
+    height: 100%;
+
+}
+.box6 {
+    grid-column-start:2 ;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align:start;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    margin: 0.4em;
+}
+.box7 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image:url(/img/juego4.jpg);
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    background-position: 2px;
+    } 
+.box8{
+    grid-column-start:2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    text-align:start;
+    font-weight:900;
+    color:rgb(255, 255, 255);
+    margin: 0.4em;
+}
+.box9 {
+    grid-column-start:3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image:url(/img/juego5.jpg);
+    background-size: 350px;
+    background-position: 4px;
+}
+
+.box10{
+    grid-column-start:3 ;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align:start;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    margin: 0.4em;
+}
+.box11 {
+    grid-column-start:3;
+    grid-row-start:3;
+    grid-row-end:4;
+    background-image:url(/img/juego6.jpg);
+    background-size: cover ;
+    width: 100%;
+    height: 100%;
+    background-position: 2px ;
+}
+.box12 {
+    grid-column-start:3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    text-align:start;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    margin: 0.4em;
+}
+.productos{
+    background-image:url(/img/fondo\ de\ productos.jpg);
+    background-size: cover;
+}
+.wrapper2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows:200px;
+    opacity: 0.8;
+}
+.box-1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image:url(/img/laptop1.png);
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    background-position: 2px;
+    }
+
+.box-2{
+    grid-column-start:1 ;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align:start;
+    font-weight:900;
+    color:rgb(255, 255, 255);
+    margin: 0.4em;
+}
+.box-3 {
+    grid-column-start:1;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image:url(/img/laptop2.png);
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    background-position: 2px;
+}
+
+.box-4 {
+    grid-column-start:1 ;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    text-align:start;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    margin: 0.4em;
+}
+.box-5 {
+    grid-column-start:2;
+    grid-row-start:1;
+    grid-row-end:2;
+    background-image:url(/img/laptop3.png);
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    background-position: 2px;
+
+}
+.box-6 {
+    grid-column-start:2 ;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align:start;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    margin: 0.4em;
+}
+.box-7 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image:url(/img/laptop4.png);
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    background-position: 2px;
+    } 
+.box-8{
+    grid-column-start:2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    text-align:start;
+    font-weight:900;
+    color:rgb(255, 255, 255);
+    margin: 0.4em;
+}
+.box-9 {
+    grid-column-start:3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image:url(/img/laptop5.png);
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    background-position: 2px;
+
+
+}
+
+.box-10{
+    grid-column-start:3 ;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align:start;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    margin: 0.4em;
+}
+.box-11 {
+    grid-column-start:3;
+    grid-row-start:3;
+    grid-row-end:4;
+    background-image:url(/img/laptop6.png);
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    background-position: 2px;
+
+
+}
+.box-12 {
+    grid-column-start:3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    text-align:start;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    margin: 0.4em;
+}
+
+
